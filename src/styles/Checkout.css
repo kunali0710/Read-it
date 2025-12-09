@@ -16,14 +16,15 @@
 /* MAIN CARD */
 
 .checkout-card {
-  max-width: 1150px;
+  /* max-width: 1150px; */
+  width: 100%;
   margin: auto;
-  background: #ffffff;
+  /* background: #ffffff; */
   border-radius: 18px;
   padding: 25px;
   display: flex;
   gap: 25px;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+  /* box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06); */
 }
 
 

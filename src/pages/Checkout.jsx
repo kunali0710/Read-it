@@ -14,19 +14,20 @@ const Checkout = () => {
   const total = subtotal + shippingCost + taxes
 
   return (
-    <div className="checkout-container">
+    // <div className="checkout-container">
       
-      {/* SHOW ID (optional) */}
-      <p className="checkout-id">Order ID: {id}</p>
+    //   {/* SHOW ID (optional) */}
+    //   {/* <p className="checkout-id">Order ID: {id}</p> */}
 
+    // </div>
       <div className="checkout-card">
 
         {/* LEFT SIDE */}
         <div className="checkout-left">
 
-          <div className="checkout-breadcrumb">
+          {/* <div className="checkout-breadcrumb">
             Cart &gt; <span>Shipping</span> &gt; Payment
-          </div>
+          </div> */}
 
           <h1 className="checkout-title">Shipping Address</h1>
 
@@ -162,7 +163,6 @@ const Checkout = () => {
 
         </div>
       </div>
-    </div>
   )
 }
 
