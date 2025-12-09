@@ -14,6 +14,7 @@ import Footer from './components/Footer'
 import AccountLayout from './layouts/AccountLayout'
 import MyOrders from './pages/MyOrders'
 import Checkout from './pages/Checkout'
+import Cart from './pages/Cart'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path='edit-profile' element={<EditProfile />} />
         </Route>
         <Route path='/checkout/:id' element={<Checkout />}/>
+        <Route path='/cart' element={<Cart />} />
       </Routes>
       <Footer />
     </div>
